@@ -76,12 +76,6 @@ pyinstaller-hooks-contrib==2022.0
 Pympler==1.0.1
 pyparsing==3.0.7
 pyrsistent==0.18.1
-PySimpleGUI==4.56.0
-python-dateutil==2.8.2
-pywin32==304
-pywin32-ctypes==0.2.0
-pywinpty==2.0.6
-pyzmq==23.2.0
 requests==2.27.1
 rich==12.5.1
 scipy==1.8.0
