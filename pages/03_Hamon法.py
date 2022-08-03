@@ -34,7 +34,7 @@ beta  = 237.3
 # GUI処理
 
 st.title("Hamon法")
-st.caption('日別気温データから蒸発散量を換算するアプリ(******* 開発中 *******)')
+st.caption('日別気温データから蒸発散量を換算するアプリ')
 with st.form(key='resample_form'):
 
     upfile = st.file_uploader("ファイルアップロード",type ='csv')
