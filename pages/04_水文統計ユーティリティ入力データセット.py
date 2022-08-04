@@ -5,6 +5,7 @@ import numpy as np
 
 st.title("データ変換アプリ")
 st.caption('水文統計ユーティリティに入力するデータセットを作成します。')
+st.caption('*注 年別合計データファイル（01_SUM_Y.csv）をインプットして下さい!!!')
 with st.form(key='resample_form'):
 
     upfile = st.file_uploader("ファイルアップロード",type ='csv')
