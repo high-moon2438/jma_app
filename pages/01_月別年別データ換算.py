@@ -39,7 +39,7 @@ with st.form(key='resample_form'):
         href_03 = f'<a href="data:application/octet-stream;base64,{b64_03}" download="03_SUM_M.csv">download_link</a>'  
         st.markdown(f"月合計データ => {href_03}",unsafe_allow_html=True) 
         
-        csv04 = df_MEAN_Y.to_csv()
+        csv04 = df_MEAN_M.to_csv()
         b64_04 = base64.b64encode(csv04.encode()).decode()
         href_04 = f'<a href="data:application/octet-stream;base64,{b64_04}" download="04_MEAN_M.csv">download_link</a>'  
         st.markdown(f"月平均データ => {href_04}",unsafe_allow_html=True)  
